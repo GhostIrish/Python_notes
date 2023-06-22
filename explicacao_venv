@@ -1,0 +1,18 @@
+basicamente o venv serve para nichar seus projetos, digamos que eu tenha uma biblioteca instalada em um ambiente virtual,
+se eu sair deste ambiente e voltar para meu vs code 'original', esssa biblioteca não estara instalada, ou seja, as bibliotecas 
+so funcionam em seus determinados ambientes, isso faz com que cada projeto precise apenas das bibliotecas necessárias, 
+pois se fosse tudo feito fora do ambiente virtual, muitas bibliotecas iriam junto com o programa sem necessidade, 
+deixando ele mais pesado, em caso de duvida, o modulo intermediario do curso de python da udemy vai explicar dnv sobre os ambientes!
+
+ativa o ambiente virtual: venv/Scripts/Activate
+desativa: deactivate
+exclui: so ir na pasta onde ele ta salvo e apagar
+
+cria um ambiente: python -m venv venv
+
+pip freeze > requirements.txt: cria um arquivo com todas bibliotecas instaladas 
+em determinado local, seja no vs code original ou em algum ambiente virtual.
+
+pip install -r .\requirements.txt: vai instalar todas as bibliotecas salvas no seu arquivo de requerimento em suas determinadas 
+versões para fazer o codigo funcionar sem erros.
+

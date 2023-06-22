@@ -1,0 +1,23 @@
+{
+  "nome": "Hariel",
+  "sobrenome": "Pimenta",
+  "enderecos": [
+    {
+      "rua": "R1",
+      "numero": 32
+    },
+    {
+      "rua": "R2",
+      "numero": 55
+    }
+  ],
+  "altura": 1.8,
+  "numeros_preferidos": [
+    7,
+    15,
+    8,
+    25
+  ],
+  "dev": "Ainda nao",
+  "nada": null
+}
